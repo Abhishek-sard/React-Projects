@@ -1,7 +1,9 @@
-import ColorPickup from './ColorPickup';
+import MyComponent from "./MyComponent"
 function App() {
+return(
+    <MyComponent/>
+);
 
-  return(<ColorPickup/>);
 }
 
 export default App
